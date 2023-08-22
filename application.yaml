@@ -22,11 +22,4 @@ spec:
 
     automated:
       selfHeal: true
-      prune: false
-  
-  notifications:
-    - name: app-sync-succeeded
-      enabled: true
-      template: app-sync-succeeded
-      events:
-        - ApplicationSynced
+      prune: true
