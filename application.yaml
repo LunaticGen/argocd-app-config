@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: myapp-argo-application1
   namespace: argocd
+  annotations: 
+    notifications.argoproj.io/subscribe.on-sync-succeeded.gmail: kambleaditya2302@gmail.com
 spec:
   project: default
 
