@@ -18,13 +18,6 @@ spec:
     server: https://kubernetes.default.svc
     namespace: myapp
 
-  notifications:
-    - name: app-sync-succeeded
-      enabled: true
-      template: app-sync-succeeded
-      events:
-        - ApplicationSynced
-
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
