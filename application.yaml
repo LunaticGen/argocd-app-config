@@ -4,7 +4,8 @@ metadata:
   name: myapp-argo-app-notifications
   namespace: argocd
   annotations: 
-    notifications.argoproj.io/subscribe.on-sync-succeeded.gmail: kambleaditya2302@gmail.com
+    argocd-notifications.argoproj.io/smtp-host: "localhost"
+    argocd-notifications.argoproj.io/smtp-port: "8025" 
 spec:
   project: default
 
