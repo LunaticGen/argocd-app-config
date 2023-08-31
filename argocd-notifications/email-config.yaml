@@ -5,4 +5,4 @@ metadata:
 data:
   service.email.mocksmtp: |
     host: localhost
-    port: 8025
+    port: 1025
